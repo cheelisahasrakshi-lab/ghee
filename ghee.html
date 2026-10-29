@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharathi Dairy</title>
+    <link rel="stylesheet" href="ghee.css">
+</head>
+<body>
+
+<header class="header">
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+    <a href="ghee.html" class="logo">
+        <img src="ghee.jpeg" alt="Bharathi Dairy Logo">
+    </a>
+
+    <nav class="categories" id="categories">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#ghee">Ghee</a>
+        <a href="#honey">Honey</a>
+        <a href="#combos">Combos</a>
+        <a href="#gifting">Gifting</a>
+        <a href="#story">Our Story</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="header-actions">
+        <button class="icon-btn" id="searchBtn" aria-label="Search">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="10.8" cy="10.8" r="6.8"></circle>
+                <path d="m16 16 5 5"></path>
+            </svg>
+        </button>
+
+        <a href="cart.html" class="icon-btn" aria-label="Shopping cart">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 1.9-1.5L22 8H6"></path>
+                <circle cx="10" cy="20" r="1"></circle>
+                <circle cx="18" cy="20" r="1"></circle>
+            </svg>
+        </a>
+    </div>
+</header>
+
+<div class="search-panel" id="searchPanel">
+    <input type="search" id="searchInput"
+           placeholder="Search ghee, honey, combos..."
+           aria-label="Search products">
+    <div id="searchResults"></div>
+</div>
+
+<main>
+    <section class="hero" id="home">
+        <p class="eyebrow">PURE • NATURAL • TRADITIONAL</p>
+        <h1>Bring Home<br><span>Nature's Goodness</span></h1>
+        <p>Traditional goodness, made for your family.</p>
+        <a href="#shop" class="shop-btn">Explore Our Products</a>
+    </section>
+
+    <section class="products" id="shop">
+        <h2>Our Products</h2>
+        <p class="section-subtitle">Discover the goodness of Bharathi Dairy.</p>
+
+        <div class="product-grid">
+            <article class="product-card" id="ghee">
+                <div class="product-visual ghee-visual">🥛</div>
+                <h3>Pure Ghee</h3>
+                <p>Traditional goodness in every drop.</p>
+                <a href="cart.html" class="product-btn">View Product</a>
+            </article>
+
+            <article class="product-card" id="honey">
+                <div class="product-visual honey-visual">🍯</div>
+                <h3>Natural Honey</h3>
+                <p>A golden touch of nature.</p>
+                <a href="cart.html" class="product-btn">View Product</a>
+            </article>
+
+            <article class="product-card" id="combos">
+                <div class="product-visual combo-visual">🎁</div>
+                <h3>Gift Combos</h3>
+                <p>Thoughtful gifts for special moments.</p>
+                <a href="cart.html" class="product-btn">Explore Combos</a>
+            </article>
+
+            <article class="product-card" id="gifting">
+                <div class="product-visual gift-visual">🧺</div>
+                <h3>Premium Gifting</h3>
+                <p>Share goodness with your loved ones.</p>
+                <a href="cart.html" class="product-btn">Explore Gifts</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="story" id="story">
+        <h2>Our Story</h2>
+        <p>
+            Bharathi Dairy brings traditional dairy goodness closer to your home.
+            Explore our products and discover the taste of tradition.
+        </p>
+    </section>
+
+    <footer id="contact">
+        <h2>Bharathi Dairy</h2>
+        <p>Traditional goodness for every home.</p>
+        <p>For orders and enquiries, contact us.</p>
+    </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
